@@ -22,7 +22,6 @@
     "generate:pdp": "prisma generate --data-proxy",
     "build": "tsc",
     "semantic-release": "semantic-release",
-    "prepare": "husky install",
     "prepack": "yarn build",
     "test": "vitest",
     "test:run": "vitest run",
