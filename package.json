@@ -27,7 +27,8 @@
     "test": "vitest",
     "test:run": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "pdp": "node ./dist/server.js"
+    "pdp": "node ./dist/server.js",
+    "postinstall": "prisma generate"
   },
   "prisma": {
     "seed": "yarn ts-node prisma/seed.ts"
