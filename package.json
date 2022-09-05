@@ -26,7 +26,8 @@
     "prepack": "yarn build",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "pdp": "node ./dist/server.js"
   },
   "prisma": {
     "seed": "yarn ts-node prisma/seed.ts"
